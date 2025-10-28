@@ -8,7 +8,10 @@ export default function AppRoutes() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<App />} />
-                <Route path="/personagem/:is" element={<Personagem />}/>
+                <Route path="/personagem/:id" element={<Personagem />}/>
+                <Route path="/cenario/:id" element={<Cenario />}/>
+                <Route path="/conto/:id" element={<Conto />}/>
+                // adiconado novas rotas, estas são só exemplo
             </Routes>
         </BrowserRouter>
     )
