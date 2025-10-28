@@ -1,5 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Personagem(){
 
@@ -13,6 +14,10 @@ function Personagem(){
             </h2>
 
             <p> Id: {id}</p>
+
+            <Link to="/">
+                voltar main
+            </Link>
         </>
 
     );

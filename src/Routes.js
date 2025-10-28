@@ -9,9 +9,7 @@ export default function AppRoutes() {
             <Routes>
                 <Route path="/" element={<App />} />
                 <Route path="/personagem/:id" element={<Personagem />}/>
-                <Route path="/cenario/:id" element={<Cenario />}/>
-                <Route path="/conto/:id" element={<Conto />}/>
-                // adiconado novas rotas, estas são só exemplo
+                <Route path="/" element={<App />}/>
             </Routes>
         </BrowserRouter>
     )
