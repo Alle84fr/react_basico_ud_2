@@ -16,3 +16,19 @@ gerar edit.config
 
 - trim_trailing_whitespace = true
 insert_final_newline = true
+
+parou o projeto ctrl c
+
+- instalou don (prepara a página para spa - não precisa carregar todos arquivos estruturais)
+
+```npm install react-router-dom```
+
+transação da rota app para personagem
+
+tive que mudar algumas pequenas coisas devido versão mais recente
+
+depois dei npm run buld
+
+e depois dei npm run start
+
+
